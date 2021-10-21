@@ -1,15 +1,24 @@
 body{
-  font-family: Arial
+  font-family: Arial;
 }
 body{
-  background-color:lightgrey
+  background-color: lightgrey;
 }
 a:hover{
-  text-decoration:underline
+  text-decoration: underline;
+  color: lightgrey;
 }
 a{
-  text-decoration:none
+  text-decoration: none;
+  color: black
 }
 .zold{
-  color:green
+  color: green
+}
+.link{
+  display: inline-block;
+  background-color: black;
+  padding: 2px;
+  margin-left: 90px;
+  border-radius: 3px;
 }

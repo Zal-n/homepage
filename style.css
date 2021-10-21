@@ -5,7 +5,7 @@ body{
   background-color:lightgrey
 }
 a:hover{
-  text-decoration:underline
+  text-decoration:underline,bold
 }
 a{
   text-decoration:none

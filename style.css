@@ -10,10 +10,10 @@ a:hover{
 }
 a{
   text-decoration: none;
-  color: lightgrey
+  color: lightgrey;
 }
 .zold{
-  color: black
+  color: green;
 }
 .courier{
   font-family: courier;

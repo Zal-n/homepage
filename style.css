@@ -6,14 +6,14 @@ body{
 }
 a:hover{
   text-decoration: underline;
-  color: lightgrey;
+  color: black;
 }
 a{
   text-decoration: none;
-  color: black
+  color: lightgrey
 }
 .zold{
-  color: green
+  color: black
 }
 .link{
   display: inline-block;
@@ -22,3 +22,5 @@ a{
   margin-left: 90px;
   border-radius: 3px;
 }
+.link:hover{
+  background-color: lightblue;

@@ -15,6 +15,9 @@ a{
 .zold{
   color: black
 }
+.courier{
+  font-family: courier;
+}
 .link{
   display: inline-block;
   background-color: black;

@@ -16,7 +16,7 @@ a{
   color: green;
 }
 .courier{
-  font-family: courier;
+  font-family: 'Courier';
 }
 .link{
   display: inline-block;

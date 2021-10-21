@@ -24,3 +24,7 @@ a{
 }
 .link:hover{
   background-color: lightblue;
+}
+.link:first-child{
+  margin-left: 0px;
+}

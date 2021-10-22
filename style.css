@@ -2,7 +2,7 @@ body{
   font-family: Arial;
 }
 body{
-  background: linear-gradient(to right, white 0%, green 100%);
+  background: lightgrey;
 }
 a:hover{
   text-decoration: underline;
@@ -31,3 +31,14 @@ a{
 .link:first-child{
   margin-left: 0px;
 }
+.ul{
+  background-color: black
+}
+.p{
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;
+}
+header ul li{
+  display:inline-block;
+  backgroun-color: black;

@@ -20,13 +20,13 @@ a{
 }
 .link{
   display: inline-block;
-  background-color: grey;
+  background-color: lightgrey;
   padding: 2px;
   margin-left: 10px;
   border-radius: 3px;
 }
 .link:hover{
-  background-color: lightgrey;
+  background-color: grey;
 }
 .link:first-child{
   margin-left: 0px;

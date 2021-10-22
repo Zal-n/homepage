@@ -24,11 +24,19 @@
 <button onclick="myFunction()">Click Me!</button>
 
 <script>
-function myFunction() {
-  let x = document.getElementById("demo");
-  x.style.fontSize = "25px";
-  x.style.color = "red";
-}
+function changeBg() {
+  var imgPath = new String();
+        imgPath = document.getElementById("div1").style.backgroundImage;
+
+        if(imgPath == "url(images/blue.gif)" || imgPath == "")
+        {
+            document.getElementById("div1").style.backgroundImage = "url(images/green.gif)";
+        }
+        else
+        {
+            document.getElementById("div1").style.backgroundImage = "url(images/blue.gif)";
+        }
+    }
 </script>
 
 </body>

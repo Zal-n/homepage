@@ -39,8 +39,9 @@ a{
   border-radius: 12px;
   padding: 5px;
 }
-.leftmargin{
+.margin{
 	margin-left: 10px;
+	margin-top:10px;
 }
 header ul li{
   display:inline-block;

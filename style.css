@@ -1,8 +1,9 @@
 body{
   font-family: Arial;
-}
-body{
   background: lightgrey;
+}
+h1{
+	text-align: center
 }
 a:hover{
   text-decoration: underline;

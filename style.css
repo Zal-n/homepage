@@ -6,11 +6,10 @@ body{
 }
 a:hover{
   text-decoration: underline;
-  color: black;
 }
 a{
   text-decoration: none;
-  color: lightgrey;
+  color: white;
 }
 .zold{
   color: green;
@@ -20,7 +19,7 @@ a{
 }
 .link{
   display: inline-block;
-  background-color: black;
+  background-color: grey;
   padding: 2px;
   margin-left: 10px;
   border-radius: 3px;

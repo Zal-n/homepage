@@ -11,17 +11,14 @@
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
 
 <header>
- <div class="container-fluid">
-    <p><a href="https://google.com">google</a></p>
-    <p><a href="https://index.hu">index</a></p>
+  <ul>
+    <li><a href="https://google.com">google</a></li>
+    <li><a href="https://index.hu">index</a></li>
   </ul>
- </div>
-</header>
 <h1 class="zold">Szia Uram!</h1>
 <a class="link" href="https://faszom.com">link</a>
 <button onclick="myFunction()">Click Me!</button>
@@ -31,13 +28,13 @@ function changeBg() {
   var imgPath = new String();
         imgPath = document.getElementById("div1").style.backgroundImage;
 
-        if(imgPath == "url(images/blue.gif)" || imgPath == "")
+        if(imgPath == "/finger.jpg" || imgPath == "https://domoterc.hu/wp-content/uploads/2020/08/540_manhattan_szurke_butorlap.jpg")
         {
-            document.getElementById("div1").style.backgroundImage = "url(images/green.gif)";
+            document.getElementById("div1").style.backgroundImage = "https://domoterc.hu/wp-content/uploads/2020/08/540_manhattan_szurke_butorlap.jpg";
         }
         else
         {
-            document.getElementById("div1").style.backgroundImage = "url(images/blue.gif)";
+            document.getElementById("div1").style.backgroundImage = "/finger.jpg";
         }
     }
 </script>

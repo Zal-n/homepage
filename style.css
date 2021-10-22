@@ -18,7 +18,7 @@ a{
 .courier{
   font-family: 'Courier';
 }
-.link{
+link{
   display: inline-block;
   background-color: lightgrey;
   padding: 2px;
@@ -60,7 +60,7 @@ header {
     height: 60px;
     background: linear-gradient(to top left, #000000 0%, #575757 100%)
 }
-header ul li: first-child{
+header ul li first-child{
   margin-left: 0;
 }
 /*!

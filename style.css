@@ -39,9 +39,6 @@ a{
   border-radius: 12px;
   padding: 5px;
 }
-.leftmargin{
-	margin-left: 10px;
-}
 header ul li{
   display:inline-block;
   backgroun-color: black;
@@ -606,4 +603,7 @@ hr {
   .hidden-print {
     display: none !important;
   }
+}
+.leftmargin{
+	margin-left: 10px;
 }

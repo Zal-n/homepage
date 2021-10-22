@@ -1,6 +1,6 @@
 body{
   font-family: Arial;
-  background-image: url('https://domoterc.hu/wp-content/uploads/2020/08/540_manhattan_szurke_butorlap.jpg');
+  background: lightgray;
 }
 h1{
 	text-align: center;
@@ -8,6 +8,18 @@ h1{
 a:hover{
   text-decoration: underline;
 }
+.clr1 {
+  background-color: #9B0FDB;
+  }
+  .clr2 {
+  background-color: #ffea00;
+  }
+  .clr3 {
+  background-color: #04DB53;
+  }
+  .clr4 {
+  background-color: #0F68DB;
+  }
 a{
   text-decoration: none;
   color: white;

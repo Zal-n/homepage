@@ -1,6 +1,6 @@
 body{
   font-family: Arial;
-  background: linear-gradient(to right, white 0%, lightblue 100%);
+  background: linear-gradient (to right, white 0%, lightblue 100%);
 }
 h1{
 	text-align: center;
@@ -39,10 +39,13 @@ a{
   border-radius: 12px;
   padding: 5px;
 }
+.leftmargin{
+	margin-left: 10px;
+}
 header ul li{
   display:inline-block;
-  backgroun-color: black;
-  borde-radius: 3px;
+  background-color: black;
+  border-radius: 3px;
   padding: 2px;
   margin-left: 90px;
   font-size: 25;
@@ -603,7 +606,4 @@ hr {
   .hidden-print {
     display: none !important;
   }
-}
-.leftmargin{
-	margin-left: 10px;
 }

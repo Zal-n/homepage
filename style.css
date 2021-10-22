@@ -47,3 +47,11 @@ header ul li{
   margin-left: 90px;
   font-size: 25;
 }
+header {
+    list-style: none;
+    padding: 0;
+    color: white;
+    padding: 20px;
+    height: 100px;
+    background: linear-gradient(to top left, #000000 0%, #575757 100%)
+}

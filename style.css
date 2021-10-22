@@ -42,3 +42,8 @@ a{
 header ul li{
   display:inline-block;
   backgroun-color: black;
+  borde-radius: 3px;
+  padding: 2px;
+  margin-left: 90px;
+  font-size: 25;
+}

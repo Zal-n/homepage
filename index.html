@@ -12,6 +12,15 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script>function jelszoEll(){
+   var jelszo = document.getElementById("jelszoDoboz");
+   var beirtJelszo == jelszo.value;
+   if(beirtJelszo == "0918273645"){
+    return true;
+   }
+   alert("rossz jelszo");
+   return false;
+  }
 </head>
 <body>
 
@@ -40,6 +49,8 @@
     <li><a class="dropdown-item" href="#">Link 3</a></li>
   </ul>
 </div>
+<input type="password" id="jelszDoboz"><br>
+<a href="https://Zal-n.github.io/sus" onclick="return jelszoEll();">secret</a>
 </body>
 
 </html>

@@ -56,7 +56,7 @@
             </td>
             <td>Az ősszes közeli szörnyet feldobja a levegőbe, Endermant is 1hit-el.</td>
             <td>{modsRequired:[{modVersion:"1.16-96",modName:"psi"}],spellName:"Yeet",uuidMost:644700481222626607L,validSpell:1b,spellList:[{data:{params:{_time:2},key:"psi:trick_delay"},x:0,y:0},{data:{params:{_target:4,_constant:2},key:"psi:constant_wrapper"},x:0,y:1},{data:{key:"psi:constant_number",constantValue:"95"},x:0,y:2},{data:{key:"psi:constant_number",constantValue:"95"},x:1,y:0},{data:{params:{_number2:4,_number3:0,_number1:1},key:"psi:operator_sum"},x:1,y:1},{data:{key:"psi:constant_number",constantValue:"-5"},x:2,y:0},{data:{params:{_number2:2,_number3:0,_number1:1},key:"psi:operator_multiply"},x:2,y:1},{data:{key:"psi:selector_loopcast_index"},x:2,y:2},{data:{params:{_position:0,_radius:0},key:"psi:selector_nearby_enemy"},x:3,y:1},{data:{params:{_list:1,_target:2},key:"psi:operator_list_remove"},x:3,y:2},{data:{key:"psi:selector_caster"},x:3,y:3},{data:{key:"psi:constant_number",constantValue:"1"},x:4,y:0},{data:{params:{_x:0,_y:1,_z:0},key:"psi:operator_vector_construct"},x:4,y:1},{data:{params:{_direction:1,_speed:2,_target:3},key:"psi:trick_mass_add_motion"},x:4,y:2},{data:{key:"psi:constant_number",constantValue:"1"},x:4,y:3}],uuidLeast:-8471034677085226034L}</td>
-</tr>
+        </tr>
         <tr>
     <td>Jumpback<br><b>Normal</b> <u>CAD</u></td>
     <td>1.16-96</td>
@@ -67,9 +67,23 @@
                 <br>Complexity:17
                 <br>Projection:2
     </td>
-
     <td>Hátra ugrat, és elmenti a volt pozíciódat a CAD 1-es memória slotjába, majd detonál 2 blockos rádiuszban</td>
     <td>{modsRequired:[{modVersion:"1.16-96",modName:"psi"}],spellName:"Jump back",uuidMost:-7049225068373848625L,validSpell:1b,spellList:[{data:{params:{_number:2,_target:4},key:"psi:trick_save_vector"},x:0,y:0},{data:{key:"psi:constant_number",constantValue:"1"},x:0,y:1},{data:{params:{_target:2},key:"psi:operator_entity_position"},x:1,y:0},{data:{key:"psi:selector_caster"},x:1,y:1},{data:{key:"psi:constant_number",constantValue:"0.5"},x:1,y:2},{data:{params:{_target:4},key:"psi:operator_entity_axial_look"},x:2,y:0},{data:{params:{_target:1},key:"psi:operator_vector_extract_y"},x:2,y:1},{data:{params:{_number2:3,_number3:0,_number1:1},key:"psi:operator_sum"},x:2,y:2},{data:{params:{_target:1},key:"psi:connector"},x:2,y:3},{data:{params:{_target:1},key:"psi:connector"},x:2,y:4},{data:{key:"psi:selector_caster"},x:2,y:5},{data:{key:"psi:selector_caster"},x:3,y:0},{data:{params:{_target:1},key:"psi:operator_entity_look"},x:3,y:1},{data:{params:{_target:1},key:"psi:operator_vector_extract_z"},x:3,y:2},{data:{params:{_number2:4,_number3:0,_number1:1},key:"psi:operator_multiply"},x:3,y:3},{data:{params:{_x:4,_y:3,_z:1},key:"psi:operator_vector_construct"},x:3,y:4},{data:{params:{_direction:1,_speed:4,_target:3},key:"psi:trick_add_motion"},x:3,y:5},{data:{params:{_target:3},key:"psi:operator_vector_extract_x"},x:4,y:1},{data:{params:{_number2:4,_number3:0,_number1:1},key:"psi:operator_multiply"},x:4,y:2},{data:{params:{_to2:3,_from2:4,_from1:1,_to1:2},key:"psi:cross_connector"},x:4,y:3},{data:{params:{_target:1},key:"psi:connector"},x:4,y:4},{data:{key:"psi:constant_number",constantValue:"4"},x:4,y:5},{data:{key:"psi:constant_number",constantValue:"-1"},x:5,y:2},{data:{params:{_target:1},key:"psi:connector"},x:5,y:3},{data:{params:{_radius:2},key:"psi:trick_detonate"},x:5,y:4},{data:{key:"psi:constant_number",constantValue:"2"},x:5,y:5}],uuidLeast:-8328156225627815344L}</td>
+        </tr>
+        
+        <tr>
+    <td>General explosion <br>Normal<b></b> <u>Helmet-detonation</u></td>
+    <td>1.16-96</td>
+    <td>
+                <br>Potency:000
+                <br>Cost:000
+                <br>Bandwith:00
+                <br>Complexity:0
+                <br>Projection:00
+    </td>
+
+    <td>Letesz egy vizet robbant egyet az 1es mentett CAD memory slot pozíciójánál majd eltünteti a vizet.</td>
+    <td>{modsRequired:[{modVersion:"1.16-96",modName:"psi"}],spellName:"Sleep",uuidMost:6260763570963762813L,validSpell:1b,spellList:[{data:{params:{_time:2},key:"psi:trick_delay"},x:0,y:0},{data:{key:"psi:constant_number",constantValue:"10"},x:0,y:1},{data:{params:{_position:4},key:"psi:trick_torrent"},x:1,y:1},{data:{params:{_number:2},key:"psi:selector_saved_vector"},x:2,y:1},{data:{key:"psi:constant_number",constantValue:"1"},x:2,y:2},{data:{params:{_target:2},key:"psi:connector"},x:3,y:1},{data:{params:{_number:3},key:"psi:selector_saved_vector"},x:3,y:2},{data:{params:{_target:1},key:"psi:connector"},x:3,y:3},{data:{params:{_power:4,_position:3},key:"psi:trick_explode"},x:4,y:1},{data:{params:{_power:4,_position:3},key:"psi:trick_explode"},x:4,y:2},{data:{params:{_power:4,_position:3},key:"psi:trick_explode"},x:4,y:3},{data:{params:{_target:2},key:"psi:connector"},x:5,y:1},{data:{key:"psi:constant_number",constantValue:"3"},x:5,y:2},{data:{params:{_target:1},key:"psi:connector"},x:5,y:3},{data:{params:{_number:4},key:"psi:selector_saved_vector"},x:6,y:2},{data:{params:{_time:2,_position:1},key:"psi:trick_conjure_block"},x:6,y:3},{data:{key:"psi:constant_number",constantValue:"2"},x:6,y:4},{data:{key:"psi:constant_number",constantValue:"1"},x:7,y:2}],uuidLeast:-6021061010874956951L}</td>
 </tr>
     </table>
 </body>
@@ -90,6 +104,7 @@
                 <br>Cost:000
                 <br>Bandwith:00
                 <br>Complexity:0
+                <br>Projection:00
     </td>
 
     <td></td>

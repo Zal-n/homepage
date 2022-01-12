@@ -3,6 +3,9 @@ body{
     background: linear-gradient(to right, lightblue 0%, lightgreen 100%);
     overflow: hidden;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 h1{
     text-align: center;
 }

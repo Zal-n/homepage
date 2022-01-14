@@ -6,6 +6,7 @@ body{
 }
 body::-webkit-scrollbar {
   display: none;
+}
 h1{
     text-align: center;
 }
